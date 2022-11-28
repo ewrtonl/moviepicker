@@ -1,11 +1,11 @@
 <h1 align='center'>
-MoviePick
+🎞 MoviePicker
 </h1>
 
 <h1 align='center'>
   <img src="./assets/design-screenshot.png" />
 </h1>
-<h1 align='center'><a href="">See the site</a></h1>
+<h1 align='center'><a href="https://ewrtonl.github.io/moviepicker/">See the site</a></h1>
 
 ## 📕 About
 
@@ -18,7 +18,7 @@ Yet to implement:<br/>
 
 Users should be able to:<br/>
 
-- Receive a movie suggestion every time you click the button.<br/>
+- Receive a movie suggestion every time you click on the button.<br/>
 - See the film's poster, title, synopsis and platform.<br/>
 - View the optimal layout depending on their device's screen size<br/>
 
