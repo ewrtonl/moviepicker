@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+
+  background: linear-gradient(
+    36deg,
+    rgba(39, 17, 57, 1) 35%,
+    rgba(57, 11, 122, 1) 61%,
+    rgba(105, 0, 251, 1) 93%
+  );
+  background-attachment: fixed;
+
+  color: white;
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+  padding: 4rem;
+
+  width: (32rem, 90%);
+}
+
+header {
+  text-align: center;
+
+  margin-bottom: 3rem;
+}
+
+header img{
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 1rem 3rem;
+  border-radius: 1.5rem;
+  border: none;
+
+  margin-bottom: 2.6rem;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button img {
+  width: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 35rem;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  border-bottom: .3rem solid rgba(219, 76, 255, 0.3);
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 2rem;
+}
+
+.movie-info img {
+  margin-top: 2rem;
+  width: 5.5rem;
+  cursor: pointer;
+
+  transition: transform .3s;
+}
+
+
+
+.movie-info img:hover { 
+  transform: scale(1.1);
+}
+
+.movie-info span {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+}
+
+.movie-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-poster {
+  width: 18rem;
+  border-radius: 2rem;
+
+  margin-bottom: 2rem;
+  box-shadow: .6rem .7rem .7rem rgba(0, 0, 0, 0.5);
+}
+
+.movie-info p {
+  width: 30rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 600px) {
+
+  main {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+
+  .movie {
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    gap: 3rem;
+  }
+
+  .movie-info p {
+    width: 33rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  .movie-info {
+    align-items: flex-start;
+  }
+
+  .movie-box {
+    display: block;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+  
+}
+
+.hide {
+  display: none;
+}

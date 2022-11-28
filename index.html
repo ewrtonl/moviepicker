@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoviePicker</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="principal">
+      <header>
+        <img src="./assets/rand-logo.svg" alt="" />
+        <h1>Don't know what to watch?</h1>
+      </header>
+
+      <div id="movieFullBox" class="movie hide">
+        <img id="moviePoster" class="movie-poster" src="" alt="">
+        <div class="movie-info">
+          <div id="movieBox" class="movie-box">
+            <span id="movieTitle"></span>
+            <p id="movieSynopsis"></p>
+          </div>
+          <img id="moviePlatform" src="" alt="">
+        </div>
+      </div>
+
+      <main>
+        <button id="find">
+          <img src="./assets/rand-icon.svg" alt="" /> Find something
+        </button>
+
+        <p>
+          Click on "Find something" and we will bring you information of some
+          movie for you to watch today 😄
+        </p>
+      </main>
+    </div>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
