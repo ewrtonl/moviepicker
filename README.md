@@ -6,7 +6,7 @@
   <img src="./assets/screenone.png" />
   <img src="./assets/screentwo.png" />
 </h1>
-<h1 align='center'><a href="">See the site</a></h1>
+<h1 align='center'><a href="https://ewrtonl.github.io/moviepicker/">See the site</a></h1>
 
 ## 📕 About
 
