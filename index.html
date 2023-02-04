@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoviePicker</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="principal ">
+      <header>
+        <img src="./assets/rand-logo.svg" alt="" />
+        <h1>Don't know what to watch?</h1>
+      </header>
+
+      <div id="movieFullBox" class="movie hide">
+        <img id="moviePoster" class="movie-poster" src="" alt="">
+        <div class="movie-info">
+          <div id="movieBox" class="movie-box">
+            <span id="movieTitle"></span>
+            <div class="movieSynopsis">
+              <p id="movieSynopsis"></p>
+            </div>
+          </div>
+          <div class="rating">
+            <img src="./assets/icons8-star-50.png" alt="Rating">
+            <p id="rating-point">0.0</p>
+          </div>
+        </div>
+
+
+        <button id="button-plus">&plus;</button>
+      </div>
+
+      <main>
+        <button id="find">
+          <img src="./assets/rand-icon.svg" alt="" /> Find something
+        </button>
+
+        <div class="main-bottom">
+          <p>
+            Click on "Find something" and we will suggest a random movie or TV show for you 😄
+          </p>
+  
+          <button id="bookmark">
+            <img src="./assets/icons8-bookmark-66.png" alt="My watchlist">
+          </button>
+        </div>
+
+      </main>
+    </div>
+
+    <div class="watchlist hide">
+      <div class="wacthlist-head">
+        <p>My watchlist</p>
+        <button id="close-watchlist">
+          <img src="./assets/icons8-macos-close-30.png" alt="Close page">
+        </button>
+      </div>
+
+      <div class="movies-list">
+
+        
+      </div>
+    </div>
+    
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
