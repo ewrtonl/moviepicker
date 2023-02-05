@@ -151,6 +151,7 @@ p {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: .2rem;
+  max-width: 35rem;
 }
 
 .movie-info p {
