@@ -13,7 +13,7 @@
 Project to practice JavaScript, DOM manipulation and APIs.<br/>
 Display a random movie or TV show every time you click on "Find Something"<br/>
 
-- Using themoviedb.org API to display movie or tv show information.<br/>
+- Using themoviedb.org API to display movie and tv show information.<br/>
 
 Users should be able to:<br/>
 
